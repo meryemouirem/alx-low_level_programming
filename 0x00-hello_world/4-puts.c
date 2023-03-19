@@ -1,9 +1,9 @@
 #include <stdio.h>
+/*
+ * Description: main - Print out a string to stdout.
+ * return : 0 if success.
+ */
 int main(void){
-	/**
-	 * Description: main function 
-	 * return : 0 if no errors
-	 */
 
 	puts("\"Programming is like building a multilingual puzzle");
 
