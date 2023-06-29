@@ -14,8 +14,8 @@ void print_grid(int **grid, int width, int height)
 {
 	int w;
 	int h;
+
 	h = 0;
-	
 	while (h < height)
 	{
 		w = 0;
@@ -28,14 +28,15 @@ void print_grid(int **grid, int width, int height)
 		h++;
 	}
 }
- /***
- * main - check the code for ALX School students
- *
- * Return: Always 0.
- */
+/***
+* main - check the code for ALX School students
+*
+* Return: Always 0.
+*/
 int main(void)
 {
 	int **grid;
+
 	grid = alloc_grid(6, 4)
 		if (grid == NULL)
 		{
